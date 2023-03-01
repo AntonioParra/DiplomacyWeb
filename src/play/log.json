@@ -1,0 +1,89 @@
+[{
+    "turnNumber": 1,
+    "steps": [{
+        "type": "a",
+        "countryCommands": [{
+            "name": "Alemania",
+            "commands": [{
+                "text": "El ejercito de Berlin se mueve a Silesia",
+                "resolution": true
+            }, {
+                "text": "El ejercito de Munich se mueve a Ruhr",
+                "resolution": true
+            }, {
+                "text": "La flota de Kiel se mueve a Denmark",
+                "resolution": true
+            }]
+		}, {
+            "name": "Austria",
+            "commands": [{
+                "text": "El ejercito de Vienna se mueve a Galicia",
+                "resolution": true
+            }, {
+                "text": "El ejercito de Budapest se mueve a Serbia",
+                "resolution": true
+            }]
+		}, {
+            "name": "Francia",
+            "commands": [{
+                "text": "El ejercito de Paris se mueve a Burgundy",
+                "resolution": true
+            }, {
+                "text": "El ejercito de Marseilles apoya al ejercito de Paris que se mueve a Burgundy",
+                "resolution": true
+            }, {
+                "text": "La flota de Brest se mueve a Mid Atlantic",
+                "resolution": true
+            }]
+		}, {
+            "name": "Italia",
+            "commands": [{
+                "text": "El ejercito de Venezia se mueve a Piemonte",
+                "resolution": true
+            }, {
+                "text": "El ejercito de Roma se mueve a Apulia",
+                "resolution": true
+            }, {
+                "text": "La flota de Napoli se mueve a Ionian Sea",
+                "resolution": true
+            }]
+		}, {
+            "name": "Inglaterra",
+            "commands": [{
+                "text": "El ejercito de Liverpool se mueve a York",
+                "resolution": true
+            }, {
+                "text": "La flota de Edinburgh se mueve a North Sea",
+                "resolution": true
+            }]
+		}, {
+            "name": "Rusia",
+            "commands": [{
+                "text": "El ejercito de Moscow se mueve a Ukraine",
+                "resolution": true
+            }, {
+                "text": "La flota de Saint Petersburg se mueve a Gulf of Bothnia",
+                "resolution": true
+            }]
+		}, {
+            "name": "Turquía",
+            "commands": [{
+                "text": "El ejercito de Constantinople se mueve a Bulgaria",
+                "resolution": true
+            }, {
+                "text": "La flota de Ankara se mueve a Constantinople",
+                "resolution": true
+            }]
+		}]
+    }, {
+        "type": "b",
+        "info": {
+            "comment": "Ningún ejercito debe retirarse"
+        }
+    }]
+}, {
+    "turnNumber": 2,
+    "steps": [{
+        "type": "a"
+    }]
+}]

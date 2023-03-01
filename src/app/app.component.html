@@ -1,0 +1,15 @@
+
+
+
+
+<div *ngIf="currentTurn">
+  <h1>Actual</h1>
+  <app-turn [turn]="currentTurn"></app-turn>
+</div>
+
+
+
+<div>
+  <h1>Historico</h1>
+  <app-turn *ngFor="let turn of turns" [turn]="turn"></app-turn>
+</div>

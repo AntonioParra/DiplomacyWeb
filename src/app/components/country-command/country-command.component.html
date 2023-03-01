@@ -1,0 +1,4 @@
+<div class="componentBase">
+    <h4>{{ countryCommand?.name }}</h4>
+    <app-command *ngFor="let command of countryCommand?.commands" [command]="command"></app-command>
+</div>

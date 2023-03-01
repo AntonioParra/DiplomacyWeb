@@ -1,0 +1,17 @@
+<div class="componentBase">
+    <h3>{{ getStepName() }}</h3>
+    <img [src]="getUrlMap()" (click)="openImg()" class="mapa"/>
+    <div *ngIf="step?.type === 'a' && step?.countryCommands?.length">
+        <img [src]="getUrlMap2()" (click)="openImg2()" class="mapa"/>
+    </div>
+    <div *ngIf="step?.info" class="componentBase">
+        <h4>Información</h4>
+        <p *ngIf="step.info.comment">
+            {{ step.info.comment }}
+        </p>
+        <ul *ngIf="step.info.list">
+            <li *ngFor="let item of step.info.list">{{ item }}</li>
+        </ul>
+    </div>
+    <app-country-command *ngFor="let countryCommand of step?.countryCommands" [countryCommand]="countryCommand"></app-country-command>
+</div>

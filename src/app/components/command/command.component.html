@@ -1,0 +1,6 @@
+<div class="componentBase">
+    <div>
+        <span [class.underline]="!command?.resolution">{{ command?.text }}</span>
+        <span *ngIf="command?.comment" class="italic"> ({{ command?.comment }})</span>
+    </div>
+</div>

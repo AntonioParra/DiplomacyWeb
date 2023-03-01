@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: OpenSans;
+    src: url('~/assets/OpenSans-Regular.ttf') format('woff2')
+}
+
+* {
+    font-family: OpenSans;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.componentBase {
+    padding: 0 0.5rem;
+    margin: 0 0.5rem;
+}

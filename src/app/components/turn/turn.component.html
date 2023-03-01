@@ -1,0 +1,4 @@
+<div class="componentBase">
+    <h2>{{ getTurnName() }}</h2>
+    <app-step *ngFor="let step of turn?.steps" [turn]="turn" [step]="step"></app-step>
+</div>

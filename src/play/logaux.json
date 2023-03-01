@@ -1,0 +1,112 @@
+[{
+    "turnNumber": 1,
+    "steps": [{
+        "type": "a",
+        "countryCommands": [{
+            "name": "Austria",
+            "commands": [{
+                "text": "Movimiento 1",
+                "resolution": true
+            }, {
+                "text": "Movimiento 2",
+                "resolution": false
+            }]
+        }, {
+            "name": "Inglaterra",
+            "commands": [{
+                "text": "Movimiento 1",
+                "resolution": true
+            }, {
+                "text": "Movimiento 2",
+                "resolution": false
+            }]
+        }]
+    }, {
+        "type": "b",
+        "countryCommands": [{
+            "name": "Austria",
+            "commands": [{
+                "text": "Retirada 1",
+                "resolution": true
+            }, {
+                "text": "Retirada 2",
+                "resolution": false
+            }]
+        }, {
+            "name": "Inglaterra",
+            "commands": [{
+                "text": "Retirada 1",
+                "resolution": true
+            }, {
+                "text": "Disolución 1",
+                "resolution": true
+            }]
+        }]
+    }]
+}, {
+    "turnNumber": 2,
+    "steps": [{
+        "type": "a",
+        "countryCommands": [{
+            "name": "Austria",
+            "commands": [{
+                "text": "Movimiento 1",
+                "resolution": true
+            }, {
+                "text": "Movimiento 2",
+                "resolution": false
+            }]
+        }, {
+            "name": "Inglaterra",
+            "commands": [{
+                "text": "Movimiento 1",
+                "resolution": true
+            }, {
+                "text": "Movimiento 2",
+                "resolution": false
+            }]
+        }]
+    }, {
+        "type": "b",
+        "countryCommands": [{
+            "name": "Austria",
+            "commands": [{
+                "text": "Retirada 1",
+                "resolution": true
+            }, {
+                "text": "Retirada 2",
+                "resolution": false
+            }]
+        }, {
+            "name": "Inglaterra",
+            "commands": [{
+                "text": "Retirada 1",
+                "resolution": true
+            }, {
+                "text": "Disolución 1",
+                "resolution": true
+            }]
+        }]
+    }, {
+        "type": "c",
+        "countryCommands": [{
+            "name": "Austria",
+            "commands": [{
+                "text": "Contrucción 1",
+                "resolution": true
+            }, {
+                "text": "Contrucción 2",
+                "resolution": false
+            }]
+        }, {
+            "name": "Inglaterra",
+            "commands": [{
+                "text": "Contrucción 1",
+                "resolution": true
+            }, {
+                "text": "Eliminación 1",
+                "resolution": true
+            }]
+        }]
+    }]
+}]
